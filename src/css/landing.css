@@ -1,0 +1,210 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+      overflow: scroll;
+  }
+
+/*navbarStyle*/
+
+.navbar{
+    height: 70px;
+}
+
+.navbar-list li{ 
+     margin-left: 13px;
+     color: #2E2E2E;
+     font-size: 12px;
+     font-family: 'Montserrat',sans-serif;
+     font-weight: 600;     
+}
+
+.logo{
+    padding: 23px 80px;
+    color: #FF8C00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+} 
+
+
+.navbar-list li:hover{
+    color: #FF8C00;
+    cursor: pointer;
+}  
+
+
+/*homeStyle*/
+
+.home{
+    width: 100%;
+    height: 570px;
+    background-image: linear-gradient(#242A35,rgba(36,42,53,0.80)),url(../images/fundo.jpg);
+    background-size: cover;
+}
+.home-titulo{
+     color: #fff;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 400; 
+     margin-top: 130px;
+     margin-bottom: 30px;
+     font-size: 12px;
+}
+
+.home-name{
+    text-align: left;
+    font-family: 'Montserrat',sans-serif;
+    color: #FF8C00;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.home-descricao{
+    max-width: 700px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 14px;
+    text-align: left; 
+    margin-bottom: 30px;
+}
+
+.home-button{    
+    color: #FF8C00;
+    background: #242A35;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 45px;
+    width: 130px;
+    outline: none;
+    cursor: pointer;
+    border: solid 1px #FF8C00;
+    font-size: 16px;
+} 
+
+
+
+.home-button:hover{
+    background-color: #FF8C00;
+    color: #fff;
+}
+
+
+/*projectsStyle*/
+
+.descricao-project{
+    text-align: center;
+    width: 250px;
+    color:#636060
+}
+
+
+.projects-container h3{
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    color: #2E2E2E;
+
+
+}
+
+.projects-card{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.projects-card img{
+ height: 40px;
+ width: 40px;
+ margin-bottom: 20px;
+}
+
+.projects-titulo{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color: #2E2E2E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500; 
+  font-size: 20px;
+}
+
+
+/*contactStyle*/ 
+
+.contact{
+   background: #242A35;
+} 
+
+.contact{
+    padding: 100px;
+    background: #242A35;
+    width: 100%;
+    height: 400px;
+ }
+
+ .contact h4{
+     text-align: center;
+     color: #fff;
+     margin-bottom: 20px;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 500;
+     font-size: 20px; 
+   
+ } 
+
+ .contact p{
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.group-contact img {
+     margin-bottom: 20px;
+     width: 30px;
+     height: 30px;
+}
+
+
+.group-contact p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*rodapeStyle*/
+
+.rodape-imagem img{
+    margin: 0px 20px;
+    width: 50px ;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.rodape-imagem img:hover{
+    cursor:pointer;
+    transform: translateY( -20px);
+   }
+
+.rodape-titulo{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FF8C00;
+    margin-bottom: 20px;
+}
+
+
+.rodape-dev{
+    color: #2E2E2E;
+    font-family: 'nunito', sans-serif;
+    font-weight: 400;     
+}
+
