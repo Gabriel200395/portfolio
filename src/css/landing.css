@@ -148,9 +148,8 @@
 
    }
 
-   .projects-card button:hover{
-       background-color: #FF8C00;
-       color: #fff
+   .projects-card a{
+       color:#FF8C00
    }
    
    

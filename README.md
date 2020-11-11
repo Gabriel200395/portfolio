@@ -7,7 +7,12 @@
 [Ok] criar button nos projetos
 [] descricao do projetos 
 [Ok] ancorar navbar 
-[] Responsivo
+[OK] Responsivo
+
+
+
+[] resolver o readme do controle de estoque 
+[] subir os projetos do Nlw
 
 
 
