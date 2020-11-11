@@ -1,104 +1,92 @@
-
 /*navbarFlex*/
 
-.navbar-container{
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.navbar-list{
-    display: flex;
-    list-style: none; 
-    padding: 0px 80px; 
-} 
+.navbar-list {
+  display: flex;
+  list-style: none;
+  padding: 0px 80px;
+}
 
 /*homeFlex*/
 
-.home-container{
-     display: flex; 
-     align-items: flex-start;
-     flex-direction: column;
-     margin-left: 80px;
-
-} 
-
-
-/*ProjectsFlex*/ 
-
-
-.projects-container{  
-    display: flex;
-    height: 250px;
-    flex-flow: column wrap;
-} 
-
-.projects-card{
-    display: flex;
-    flex-flow: column;
-    align-items: center;
+.home-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 80px;
 }
 
-/*Contact Me*/ 
+/*ProjectsFlex*/
 
-
-.contact-container{
-
-    display: flex;
-    justify-content: center;
+.projects-container {
+  display: flex;
+  height: 250px;
+  flex-flow: column wrap;
 }
 
-.group-contact{
-    display: flex;
+.projects-card {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+/*Contact Me*/
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.group-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 50px;
+}
+
+/*RodapeContainer*/
+
+.rodape-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 70px;
+}
+
+@media (max-width: 768px) {
+  .navbar-container {
     flex-direction: column;
+  }
+
+  .projects-container {
+    height: auto;
+  }
+
+  .contact-container {
     align-items: center;
-    margin: 0px 50px;
+    flex-direction: column;
+  }
+
+  .rodape-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .rodape-imagem {
+    display: flex;
+  }
+  .group-contact {
+    width: 100%;
+  }
+
+  .home-container {
+    display: flex;
+    margin-left: 40px;
+  }
 }
-
-/*RodapeContainer*/ 
-
-
-.rodape-container{
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-   padding: 70px;
-}
-
-
-
-
-@media(max-width:768px){
-    .navbar-container {
-        flex-direction: column;
-    }
-
-    .projects-container {
-        height: auto;
-    }
-
-    .contact-container {
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .rodape-container {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .rodape-imagem{
-        display: flex;
-    }
-    .group-contact {
-        width: 100%;
-    }
-
-    .home-container {
-        display: flex;
-        margin-left: 40px;
-    }
-
-}
-
