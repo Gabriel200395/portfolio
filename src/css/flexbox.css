@@ -88,11 +88,10 @@
         flex-direction: column;
     }
 
-    .rodape-imagem {
+    .rodape-imagem{
         display: flex;
-        margin-bottom: 20px;
     }
-
+    
     .group-contact {
         width: 100%;
     }
