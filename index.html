@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Resume Cv</title>
     <link rel="stylesheet" href="./src/css/landing.css">
     <link rel="stylesheet" href="./src/css/flexbox.css">
@@ -32,21 +32,21 @@
             <p class="home-name">Olá Meu Nome é Gabriel.</p>
             <p class="home-descricao">Sou desenvolvedor full-stack em desenvolvimento
                 de front-end e back-end para aplicativos Web escaláveis ​​e complexos.
-                 Atualmente estou trabalhando com desenvolvimento web, 
+                Atualmente estou trabalhando com desenvolvimento web,
                 principalmente Frontend, usando React e outras tecnologias centradas em javascript.
             </p>
             <button class="home-button">
-                Contact Me
+                <a href="mailto:eugabriel@gmail.com">Contact Me</a>
             </button>
         </div>
         <a id="project"></a>
     </section>
 
-    
+
     <!-- Projects -->
     <section>
         <h1 class="projects-titulo">PROJECTS</h1>
-        <div class="projects-container" >
+        <div class="projects-container">
 
             <div class="projects-card">
                 <img src="./src/icons/book.png">
@@ -56,12 +56,53 @@
                     em uma biblioteca. com isso caso queira saber como ficou o projeto, com qual tecnologia foi feita
                     so clicar no botão logo abaixo.</p>
 
-                    <button><a href="https://github.com/Gabriel200395/cadastro-livro" target="blank">Github</a></button>
-                </div>
+                <button><a href="https://github.com/Gabriel200395/cadastro-livro" target="blank">Github</a></button>
+            </div>
 
             <div class="projects-card" id="project">
                 <img src="./src/icons/stock.png">
                 <h3>Controle de Estoque</h3>
+                <p class="descricao-project">
+                    Olá desenvolver esse projeto para que empresas faça o controle
+                    do seus produtos nesse sistema. com isso caso queira saber como ficou o projeto, com qual tecnologia
+                    foi feita
+                    so clicar no botão logo abaixo.</p>
+
+                <button><a href="#" target="blank">Github</a></button>
+            </div>
+
+            <div class="projects-card">
+                <img src="./src/icons/file.png">
+                <h3>Cadastro</h3>
+                <p class="descricao-project">
+                    Olá desenvolver esse projeto de Cadastro utilizando a medotologia dos hooks em React
+                    fazenco a conexão back-end e frontend. Caso queira saber como ficou so clicar no botão logo abaixo.
+                </p>
+                <button><a href="#" target="blank">Github</a></button>
+            </div>
+    </section>
+    <br /> <br /><br /><br />
+
+    <!--parte 1 projects -->
+
+    <section>
+        <div class="projects-container">
+            <div class="projects-card">
+                <img src="./src/icons/web-programming.png">
+                <h3>Developer</h3>
+                <p class="descricao-project">
+                    Olá desenvolver esse portfolio em ReactJS, para aprimorar os meus
+                    conhecimentos no framework e também estilizando de uma forma diferente
+                    . Caso queira ver o projeto
+                    só clicar no botão logo abaixo.</p>
+
+                <button><a href="https://github.com/Gabriel200395/developer" target="blank">Github</a></button>
+            </div>
+
+            
+             <div class="projects-card" id="project">
+                <img src="./src/icons/switch.png">
+                <h3>Switch Tema</h3>
                 <p class="descricao-project">
                     Olá desenvolver esse projeto  para que empresas faça o controle 
                     do seus produtos nesse sistema. com isso caso queira saber como ficou o projeto, com qual tecnologia foi feita
@@ -71,26 +112,25 @@
             </div>
              
             <div class="projects-card">
-                <img src="./src/icons/file.png">
-                <h3>Cadastro</h3>
+                <img src="./src/icons/html-tag.png">
+                <h3>NLW</h3>
                 <p class="descricao-project">
                     Olá desenvolver esse projeto de Cadastro utilizando a medotologia dos hooks em React
                     fazenco a conexão back-end e frontend. Caso queira saber como ficou  so clicar no botão logo abaixo.</p>
                     <button><a href="https://github.com/Gabriel200395/form-hook" target="blank">Github</a></button>
                 </div>
-        </div>
-    </section>
 
+    </section>
 
 
     <!-- contact me -->
 
     <section class="contact" id="contact">
-          <h4>CONTACT ME</h4> 
-          <p>   Qualquer dúvida fale comigo.
-        </p> 
+        <h4>CONTACT ME</h4>
+        <p> Qualquer dúvida fale comigo.
+        </p>
         <div class="contact-container">
-            <div class="group-contact"> 
+            <div class="group-contact">
                 <img src="./src/images/sinais 1.png" />
                 <p>Samambaia-Norte, DF</p>
             </div>
@@ -100,29 +140,31 @@
             </div>
             <div class="group-contact">
                 <img src="./src/images/envelope-de-correio-fechado 1.png" />
-                <a href="mailto:eugabriel@gmail.com"><p>eugabrielf@gmail.com</p></a>
+                <a href="mailto:eugabriel@gmail.com">
+                    <p>eugabrielf@gmail.com</p>
+                </a>
             </div>
         </div>
     </section>
 
 
-    <!--rodape--> 
+    <!--rodape-->
 
-     <section class="rodape-container">
-             <h3 class="rodape-titulo">Gabriel.</h3>
-          <div class="rodape-imagem">
-              <a href="https://www.facebook.com/gabrielgarotodedeus" target="_blank">
-                <img src="./src/icons/facebook.png" alt="facebook"/>
-              </a>
-              <a href="https://github.com/Gabriel200395" target="_blank">
-                <img src="./src/icons/github.png" alt="github"/>
-              </a>
-              <a href="https://www.linkedin.com/in/gabriel-souza-408451196/" target="_blank"> 
-                <img src="./src/icons/linkedin.png" alt="linkdin"/>
-              </a>
-          </div>
-            <p class="rodape-dev">© 2019 - 2020 gabriel. developer & Design</p>
-     </section>
+    <section class="rodape-container">
+        <h3 class="rodape-titulo">Gabriel.</h3>
+        <div class="rodape-imagem">
+            <a href="https://www.facebook.com/gabrielgarotodedeus" target="_blank">
+                <img src="./src/icons/facebook.png" alt="facebook" />
+            </a>
+            <a href="https://github.com/Gabriel200395" target="_blank">
+                <img src="./src/icons/github.png" alt="github" />
+            </a>
+            <a href="https://www.linkedin.com/in/gabriel-souza-408451196/" target="_blank">
+                <img src="./src/icons/linkedin.png" alt="linkdin" />
+            </a>
+        </div>
+        <p class="rodape-dev">© 2019 - 2020 gabriel. developer & Design</p>
+    </section>
 
 </body>
 

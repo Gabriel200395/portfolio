@@ -6,7 +6,10 @@
     scroll-behavior: smooth;
   }
 
-  
+  body{
+      overflow: scroll;
+  }
+
 /*navbarStyle*/
 
 .navbar{
@@ -90,6 +93,9 @@
     font-size: 16px;
 } 
 
+.home-button a{
+    color:#fff
+}
 
 
 .home-button:hover{
