@@ -18,8 +18,8 @@
             <h1 class="logo">Gabriel.</h1>
             <ul class="navbar-list">
                 <li>ABOUT</li>
-                <li>PROJECTS</li>
-                <li>CONTACT</li>
+                <a href="#project"><li>PROJECTS</li></a>
+                <a href="#contact"><li>CONTACT</li></a>
             </ul>
         </div>
     </section>
@@ -40,12 +40,14 @@
                 Contact Me
             </button>
         </div>
+        <a id="project"></a>
     </section>
 
+    
     <!-- Projects -->
     <section>
         <h1 class="projects-titulo">PROJECTS</h1>
-        <div class="projects-container">
+        <div class="projects-container" >
 
             <div class="projects-card">
                 <img src="./src/icons/book.png">
@@ -55,9 +57,11 @@
                     e vem sendo utilizado desde o século XVI, quando um impressor
                     desconhecido pegou uma bandeja de tipos e
                 </p>
+
+                <button>Github</button>
             </div>
 
-            <div class="projects-card">
+            <div class="projects-card" id="project">
                 <img src="./src/icons/stock.png">
                 <h3>Controle de Estoque</h3>
                 <p class="descricao-project">Lorem Ipsum é simplesmente uma simulação de
@@ -65,16 +69,18 @@
                     e vem sendo utilizado desde o século XVI, quando um impressor
                     desconhecido pegou uma bandeja de tipos e
                 </p>
+                <button>Github</button>
             </div>
-
+             
             <div class="projects-card">
                 <img src="./src/icons/file.png">
                 <h3>Others</h3>
-                <p class="descricao-project">Lorem Ipsum é simplesmente uma simulação de
+                <p class="descricao-project" >Lorem Ipsum é simplesmente uma simulação de
                     texto da indústria tipográfica e de impressos,
                     e vem sendo utilizado desde o século XVI, quando um impressor
                     desconhecido pegou uma bandeja de tipos e
                 </p>
+                <button>Github</button>
             </div>
         </div>
     </section>
@@ -83,22 +89,22 @@
 
     <!-- contact me -->
 
-    <section class="contact">
+    <section class="contact" id="contact">
           <h4>CONTACT ME</h4> 
           <p>   Qualquer dúvida fale comigo.
         </p> 
         <div class="contact-container">
             <div class="group-contact"> 
                 <img src="./src/images/sinais 1.png" />
-                <p>QR 211 CJ 06 CS 06</p>
+                <p>Samambaia-Norte, DF</p>
             </div>
             <div class="group-contact">
                 <img src="./src/images/telefone 1.png" />
-                <p>99508-5402</p>
+                <p> (061) 99508-5402</p>
             </div>
             <div class="group-contact">
                 <img src="./src/images/envelope-de-correio-fechado 1.png" />
-                <p>eugabrielf@gmail.com</p>
+                <a href="mailto:eugabriel@gmail.com"><p>eugabrielf@gmail.com</p></a>
             </div>
         </div>
     </section>
@@ -109,9 +115,15 @@
      <section class="rodape-container">
              <h3 class="rodape-titulo">Gabriel.</h3>
           <div class="rodape-imagem">
-              <img src="./src/icons/facebook.png" alt="facebook"/>
-              <img src="./src/icons/github.png" alt="github"/>
-              <img src="./src/icons/linkedin.png" alt="linkdin"/>
+              <a href="https://www.facebook.com/gabrielgarotodedeus" target="_blank">
+                <img src="./src/icons/facebook.png" alt="facebook"/>
+              </a>
+              <a href="https://github.com/Gabriel200395" target="_blank">
+                <img src="./src/icons/github.png" alt="github"/>
+              </a>
+              <a href="https://www.linkedin.com/in/gabriel-souza-408451196/" target="_blank"> 
+                <img src="./src/icons/linkedin.png" alt="linkdin"/>
+              </a>
           </div>
             <p class="rodape-dev">© 2019 - 2020 gabriel. developer & Design</p>
      </section>

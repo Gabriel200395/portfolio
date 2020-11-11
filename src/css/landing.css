@@ -99,7 +99,9 @@
 .descricao-project{
     text-align: center;
     width: 250px;
-    color:#636060
+    color:#636060;
+    margin-bottom: 15px;
+    
 }
 
 
@@ -125,6 +127,28 @@
  margin-bottom: 20px;
 }
 
+
+.projects-card button{
+    height: 40px;
+    width: 90px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #FF8C00;
+    border: solid 1px #FF8C00;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+
+   }
+
+   .projects-card button:hover{
+       background-color: #FF8C00;
+       color: #fff
+   }
+   
+   
+
 .projects-titulo{
   text-align: center;
   margin-top: 60px;
@@ -147,6 +171,7 @@
     background: #242A35;
     width: 100%;
     height: 400px;
+    margin-top: 50px;
  }
 
  .contact h4{
@@ -179,7 +204,15 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.group-contact a{
+   text-decoration: none;
+}
+
 /*rodapeStyle*/
+
+ a{
+     text-decoration: none;
+ }
 
 .rodape-imagem img{
     margin: 0px 20px;

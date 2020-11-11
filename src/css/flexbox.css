@@ -39,8 +39,6 @@
     align-items: center;
 }
 
-
-
 /*Contact Me*/ 
 
 
@@ -65,4 +63,51 @@
    align-items: center;
    flex-direction: column;
    padding: 70px;
+}
+
+
+
+
+
+
+@media(max-width:576px){
+    .projects-container{  
+        height: auto;
+    }    
+    
+    .projects-card{
+        margin-top: 60px;
+    }
+
+    .logo{
+        padding: 23px 81px
+    }
+   .navbar-list {
+    padding: 0px 57px;
+   }
+
+   .home-container {
+    margin-left: 63px;
+   }
+
+   .home-descricao {
+    max-width: 424px;
+   } 
+
+   .projects-titulo {
+    margin-top: 80px;
+    margin-bottom: 15px;
+} 
+
+
+.group-contact p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    width: 142px;
+}
+
+.group-contact {
+    margin: 0px 19px;
+}
+
 }
