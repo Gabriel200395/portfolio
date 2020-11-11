@@ -7,7 +7,7 @@
 [Ok] criar button nos projetos
 [] descricao do projetos 
 [Ok] ancorar navbar 
-[Ok] Responsivo
+[] Responsivo
 
 
 

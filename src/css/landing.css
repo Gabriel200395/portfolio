@@ -241,3 +241,45 @@
     font-weight: 400;     
 }
 
+
+
+
+@media(max-width:768px){
+    
+    .contact {
+        height: 498px;
+    }
+     
+    .group-contact img {
+        margin-bottom: 9px;
+    }
+     
+    .contact p {
+        color: #fff;
+        margin-bottom: 26px;
+        text-align: center;
+        font-size: 15px;
+    }
+     
+    .rodape-container {
+        height: 45%;
+    }
+     
+    .rodape-dev{
+        text-align: center;
+    }
+
+    .home {
+        margin-top: 39px;
+    }
+    
+
+    .projects-titulo {
+        margin-top: 60px;
+        margin-bottom: 15px;
+    }
+
+    .projects-card {
+        margin-top: 40px;
+    }
+}

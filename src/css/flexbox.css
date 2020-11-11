@@ -68,46 +68,38 @@
 
 
 
+@media(max-width:768px){
+    .navbar-container {
+        flex-direction: column;
+    }
 
-
-@media(min-width:576px){
-    .projects-container{  
+    .projects-container {
         height: auto;
-    }    
-    
-    .projects-card{
-        margin-top: 60px;
     }
 
-    .logo{
-        padding: 23px 81px
+    .contact-container {
+        align-items: center;
+        flex-direction: column;
     }
-   .navbar-list {
-    padding: 0px 57px;
-   }
 
-   .home-container {
-    margin-left: 63px;
-   }
+    .rodape-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 
-   .home-descricao {
-    max-width: 424px;
-   } 
+    .rodape-imagem{
+        display: flex;
+    }
 
-   .projects-titulo {
-    margin-top: 80px;
-    margin-bottom: 15px;
-} 
+    .group-contact {
+        width: 100%;
+    }
 
-
-.group-contact p {
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    width: 142px;
-}
-
-.group-contact {
-    margin: 0px 19px;
-}
+    .home-container {
+        display: flex;
+        margin-left: 40px;
+    }
 
 }
+
