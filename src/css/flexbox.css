@@ -70,7 +70,7 @@
 
 
 
-@media(max-width:576px){
+@media(min-width:576px){
     .projects-container{  
         height: auto;
     }    
