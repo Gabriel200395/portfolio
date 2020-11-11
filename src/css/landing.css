@@ -6,6 +6,11 @@
     scroll-behavior: smooth;
   }
 
+
+  body{
+      overflow-y: hidden;
+  }
+
 /*navbarStyle*/
 
 .navbar{
