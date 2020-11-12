@@ -67,6 +67,11 @@
     height: auto;
   }
 
+  .navbar-list {
+    display: flex;
+    list-style: none;
+  }
+
   .contact-container {
     align-items: center;
     flex-direction: column;
