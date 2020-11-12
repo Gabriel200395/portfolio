@@ -214,6 +214,7 @@ a {
   color: #2e2e2e;
   font-family: "nunito", sans-serif;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
