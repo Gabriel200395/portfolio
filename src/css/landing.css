@@ -71,20 +71,16 @@
 }
 
 .home-button {
-  color: #ff8c00;
+  color: #fff;
   background: #242a35;
   border-radius: 5px;
   font-weight: bold;
-  height: 45px;
-  width: 130px;
+  padding: 15px 15px 15px 15px;
+  font-family: "Montserrat", sans-serif;
   outline: none;
   cursor: pointer;
   border: solid 1px #ff8c00;
   font-size: 16px;
-}
-
-.home-button a {
-  color: #fff;
 }
 
 .home-button:hover {
