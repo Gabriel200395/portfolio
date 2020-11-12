@@ -95,6 +95,7 @@
 
   .rodape-imagem {
     display: flex;
+    margin-bottom: 15px;
   }
   .group-contact {
     width: 100%;
