@@ -72,6 +72,10 @@
     height: auto;
   }
 
+  .projects-card {
+    width: auto;
+  }
+
   .navbar-list {
     display: flex;
     list-style: none;
